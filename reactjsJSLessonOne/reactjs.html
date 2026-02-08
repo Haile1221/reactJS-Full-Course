@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>reactjs</title>
+  </head>
+  <body>
+    <!-- <div id="app"></div> -->
+    <!-- using id  -->
+    <div id="root"></div>
+    <!-- using querySelector -->
+    <!-- <div class="box"></div> -->
+    <!-- using querySelectorALL -->
+    <!-- <div class="boxes"></div>
+      <div class="boxes"></div>
+      <div class="boxes"></div>
+      <div class="boxes"></div>
+      <div class="boxes"></div> -->
+
+    <!-- react -->
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <!-- reactSDom -->
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+
+    <!-- Babel  -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script type="text/babel">
+      // document.getElementById("app").innerHTML = "Hello";
+      // dificult to muanlly update
+      // document.getElementById("app").innerHTML = "<h1> Hi </h1>";
+      // document.getElementById("app").innerHTML = "<h1> Bye </h1>";
+
+      //   Creating The React Root
+      //   const root = ReactDOM.createRoot(document.getElementById("root"));
+
+      //   root.render(
+      // "<h1> Hello React js </h1> "
+      // React.createElement(type, props, children)
+      // React.createElement("h1", null, "Hello Beshilo Coding Academy"),
+      // create element
+      // React.createElement(
+      //   "div",
+      //   null,
+
+      //   React.createElement("h1", null, "Hello react"),
+      //   React.createElement("p", null, "Hello react"),
+      //   React.createElement("p", null, "Hello react"),
+
+      //   React.createElement("button", null, "submit"),
+      // ),
+      // using jsx -> we need babel translator
+      //     <>
+      //     <h1> hello React with babel {3+6}</h1>
+      //     <p>paragraph </p>
+      //     <button>submit</button>
+      //     </>
+      //   );
+      // jsx rules
+      //   const root = ReactDOM.createRoot(document.getElementById("root"));
+      //   const channel = " Beshilo Coding Academy";
+      //   const sub = 36;
+
+      //   root.render(
+      //     <>
+      //       <h1>
+      //         hello {channel} has {sub} Subscribers
+      //       </h1>
+      //       <p style={{ color: "blue", fontSize: "30px" }}>paragraph </p>
+      //       <button>submit</button>
+      //     </>,
+      //   );
+
+      // react container selection
+      // using id
+      // const root = ReactDOM.createRoot(document.getElementById("root"));
+      // root.render(<h1> Hello id</h1>
+      // )
+
+      // using querySelector
+      //  const query = ReactDOM.createRoot(document.querySelector(".box"));
+      // query.render(<h1> Hello Query</h1>
+      // )
+
+      //  using querySelectorALL
+      //  const queryall = ReactDOM.createRoot(document.querySelectorAll(".boxes")[3]);
+      // queryall.render(<h1> Hello QueryAll</h1>
+      // )
+      //   const root = ReactDOM.createRoot(document.getElementById("root"));
+      //   root.render(
+      //     <div>
+      //       <p>paragraph</p>
+      //       <h1>hello </h1>
+      //     </div>,
+      //   );
+      // to solve jsx problems use components
+      function Greeting(props) {
+        return <h1>Hello {props.name}  your age is {props.age}</h1>;
+      }
+      //  App = container -> using components inside APP
+      function App() {
+        return (
+          <>
+            <Greeting name=" Selam" age= {30} />
+            <Greeting name=" Abebe"  age= {33}/>
+             <Greeting name=" Alemu" age= {35} />
+          </>
+        );
+      }
+
+      const root = ReactDOM.createRoot(document.getElementById("root"));
+      root.render(<App />);
+    </script>
+  </body>
+</html>
