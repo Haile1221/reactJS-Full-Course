@@ -1,0 +1,86 @@
+/* 
+.hero h3 {
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: #0f172a;
+}
+
+ul li{
+    list-style: none;
+}
+
+
+
+
+
+.beshilo-features {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.beshilo-feature-card {
+    background-color: #f1f5f9;
+    padding: 15px;
+    border-radius: 8px;   
+    
+}
+ */
+.beshilo-features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 70px 40px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.beshilo-card {
+  flex: 1 1 calc(25% - 21px); /* 25% width minus gap compensation */
+  background-color: #f1f5f9;
+  padding: 22px 20px;
+  border-radius: 12px;
+  transition: 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.beshilo-card:hover {
+  transform: translateY(-6px);
+  background-color: #e2e8f0;
+}
+
+.beshilo-card h3 {
+  font-size: 15px;
+  margin-bottom: 12px;
+  color: #0f172a;
+  font-weight: 600;
+}
+
+.beshilo-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.beshilo-card li {
+  font-size: 13px;
+  margin-bottom: 5px;
+  color: #475569;
+  line-height: 1.5;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .beshilo-card {
+    flex: 1 1 calc(50% - 14px); /* 2 cards per row */
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .beshilo-card {
+    flex: 1 1 100%; /* 1 card per row */
+  }
+}
