@@ -7,7 +7,7 @@ Welcome to the official repository for our **React JS Full Course**. Use the tab
 
 ## 📚 Course Curriculum
 
-| Lesson | Exact Topic & Title | Video Link |
+| Lesson |  video Topic | Video Link |
 | :--- | :--- | :--- |
 | **Lesson 0** | React JS Complete Course & Learning Roadmap | [Watch Now](https://www.youtube.com/watch?v=s0wEkHTXW-M) |
 | **Lesson 1** | What is React? Introduction & JS Transition | [Watch Now](https://www.youtube.com/watch?v=kmSE7GXnFgc) |
