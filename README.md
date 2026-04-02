@@ -11,9 +11,9 @@ Welcome to the official repository for our **React JS Full Course**. Use the tab
 | :--- | :--- | :--- |
 | **Lesson 0** | React JS Complete Course & Learning Roadmap | [Watch Now](https://www.youtube.com/watch?v=s0wEkHTXW-M) |
 | **Lesson 1** | What is React? Introduction & JS Transition | [Watch Now](https://www.youtube.com/watch?v=kmSE7GXnFgc) |
-| **Lesson 2** | Project Folder Structure & Setup | [Watch Now](https://www.youtube.com/watch?v=Hya4IGb5U6c) |
+| **Lesson 2** | Project Folder Structure & Setup | [Watch Now](https://www.youtube.com/watch?v=XJKVBwH8rJ0) |
 | **Lesson 3** | JSX Syntax Rules & Expressions | [Watch Now](https://www.youtube.com/watch?v=dBoGUA6DOc4) |
-| **Lesson 4** | React Components & Nesting | [Watch Now](https://www.youtube.com/watch?v=-Z0OgyAtTZs) |
+| **Lesson 4** | React List Rendering with map() & Keys Explained | [Watch Now](https://www.youtube.com/watch?v=XOMwEFtRYU0) |
 | **Lesson 5** | React Components Explained: Step-by-Step | [Watch Now](https://www.youtube.com/watch?v=qeUNEVkYuyc) |
 | **Lesson 7** | React Props Explained: Pass Data Easily | [Watch Now](https://www.youtube.com/watch?v=3ehitDdpuik) |
 | **Lesson 8** | React Props Pro: Map, Spread & Rest Operators | [Watch Now](https://www.youtube.com/watch?v=13iG0IL96vY) |
