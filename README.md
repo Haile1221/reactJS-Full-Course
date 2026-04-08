@@ -23,6 +23,9 @@ Welcome to the official repository for our **React JS Full Course**. Use the tab
 | **Lesson 12** | How to Validate Forms in React: Best Practices | [Watch Now](https://www.youtube.com/watch?v=-Z0OgyAtTZs) |
 | **Lesson 13** | React useEffect Hook Tutorial | [Watch Now](https://www.youtube.com/watch?v=aBOCRL0vsMA) |
 
+| **Lesson 14** | React Hook Form Tutorial | [Watch Now](https://www.youtube.com/watch?v=FaHe9vEI9vU) |
+
+
 ---
 
 ## 🔗 Quick Links to Stay Connected
